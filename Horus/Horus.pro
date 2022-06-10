@@ -68,10 +68,13 @@ RESOURCES += \
     res.qrc
 
 
-    INCLUDEPATH += D:\opencv\build\install\include\
-                   D:\opencv\build\install\include\opencv2
+#    INCLUDEPATH += D:\opencv\build\install\include\
+#                  D:\opencv\build\install\include\opencv2
 
+INCLUDEPATH += D:\Dev\OpenCV\opencv-4.5.4\opencv-build\install\include
+               D:\Dev\OpenCV\opencv-4.5.4\opencv-build\install\include\opencv2
 
+LIBS += D:\Dev\OpenCV\opencv-4.5.4\opencv-build\lib\libopencv_*.a
 
 
 
